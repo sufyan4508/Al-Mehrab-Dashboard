@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-fraunces: "Fraunces", serif;
+  --font-plex: "IBM Plex Sans", sans-serif;
+  --font-plex-mono: "IBM Plex Mono", monospace;
+  
+  /* Modern Dynamic Root Colors Variables */
+  --bg-custom: #0b0d10;
+  --panel-custom: #12161a;
+  --text-light-custom: #f1f4f6;
+  --text-muted-custom: #8e9ba5;
+}
+
+html, body {
+  background: var(--bg-custom);
+  color: var(--text-light-custom);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light theme handling inject rules */
+.light-theme .recharts-responsive-container svg {
+  filter: invert(0.05) hue-rotate(180deg);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #800e28 var(--panel-custom);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--panel-custom); }
+::-webkit-scrollbar-thumb { background: #800e28; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #dfb15b;
+  outline-offset: 2px;
+}

@@ -3,7 +3,7 @@
 A full-stack, animated ERP implementation tracker built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, Recharts, and a Node.js Express API.
 
 ## Project Demo
-![Al Mehrab Dashboard Demo](https://github.com/sufyan4508/Al-Mehrab-Dashboard/issues/4#issue-4942563220)
+![Al Mehrab Dashboard Demo](./frontend/public/demo.mp4)
 
 ## Folder Structure
 

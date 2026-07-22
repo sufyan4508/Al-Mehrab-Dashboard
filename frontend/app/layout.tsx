@@ -21,8 +21,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Naseem Fabrics — ERP Development Progress",
-  description: "Live implementation tracker for the Naseem Fabrics ERP rollout.",
+   title: "Al-Mehrab — ERP Progress Dashboard",
+  description: "Enterprise implementation tracker for Al-Mehrab",
 };
 
 export default function RootLayout({

@@ -74,7 +74,7 @@ export default function Header({
           </div>
           <div>
             <h1 className="font-display text-2xl font-bold leading-none tracking-tight text-mehrab-textLight sm:text-3xl">
-              Al-Mehrab
+              Al-Mehrab Enterprise
             </h1>
             <p className="mt-1.5 font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-mehrab-gold">
               {reportLabel || "ENTERPRISE PROGRESS MONITOR"}
